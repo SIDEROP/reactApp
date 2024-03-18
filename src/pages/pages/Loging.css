@@ -1,0 +1,67 @@
+#Loging{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Loging form{
+    background-color: white;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    color: black;
+    border-radius: 9px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    user-select: none;
+}
+
+
+#Loging form .userData{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+#Loging form .userData h3{
+    font-weight: 540;
+    font-size: 15px;
+}
+
+#Loging form .userData input{
+    position: relative;
+    border: none;
+    width: 100%;
+    outline: 1px solid rgba(0, 0, 0, 0.307);
+    border-radius: 2px;
+    height: 25px;
+    padding: 5px;
+}
+
+#Loging form .userData input:focus{
+    outline: 1px solid aqua;
+}
+
+#Loging form button{
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#Loging form button:hover{
+    transform: scale(.9);
+
+}
